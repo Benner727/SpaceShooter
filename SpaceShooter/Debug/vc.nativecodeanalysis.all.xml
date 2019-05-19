@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>e:\visual studio 2015\projects\spaceshooter\spaceshooter\</FILEPATH>
+      <FILENAME>physicsmanager.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>92</COLUMN>
+    </SFA>
+    <DEFECTCODE>6239</DEFECTCODE>
+    <DESCRIPTION>(&lt;non-zero constant&gt; &amp;&amp; &lt;expression&gt;) always evaluates to the result of &lt;expression&gt;.  Did you intend to use the bitwise-and operator?</DESCRIPTION>
+    <FUNCTION>PhysicsManager::UnregisterEntity</FUNCTION>
+    <DECORATED>?UnregisterEntity@PhysicsManager@@QAEXK@Z</DECORATED>
+    <FUNCLINE>33</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

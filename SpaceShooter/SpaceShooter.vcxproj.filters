@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{cc023dbe-4040-4225-a238-eac6cc344238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{45b44eb7-8b03-4828-9540-21f6cad721bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{72bfc5ab-d2cc-4158-8e86-76e7a18c0aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{97239337-a3f7-48c9-9082-fa6c5304f343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpaceShooter">
+      <UniqueIdentifier>{c096e9a5-56d4-4495-b801-20834bc79791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpaceShooter">
+      <UniqueIdentifier>{23871dd7-f8de-4034-a105-42cd5513667e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{e081362a-de3f-4a70-b56f-71e497fe642e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{f5351a20-31ca-4204-846e-f6221b5027d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpaceShooter\Ships">
+      <UniqueIdentifier>{eb23ec0a-470d-4569-8deb-b2d2212dc55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpaceShooter\Ships">
+      <UniqueIdentifier>{226c9fcd-54ce-49d1-9b39-09f29b88124b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpaceShooter\Screens">
+      <UniqueIdentifier>{1ae0e4cb-453b-4779-8a21-daac81f95139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpaceShooter\Screens">
+      <UniqueIdentifier>{a0ef36e6-7b2b-4bf0-96db-609f98f92584}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedTexture.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Scoreboard.cpp">
+      <Filter>Source Files\SpaceShooter</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayTopBar.cpp">
+      <Filter>Source Files\SpaceShooter</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\SpaceShooter</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\SpaceShooter</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\SpaceShooter</Filter>
+    </ClCompile>
+    <ClCompile Include="Meteor.cpp">
+      <Filter>Source Files\SpaceShooter</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysEntity.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Stars.cpp">
+      <Filter>Source Files\SpaceShooter</Filter>
+    </ClCompile>
+    <ClCompile Include="Raider.cpp">
+      <Filter>Source Files\SpaceShooter\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Wasp.cpp">
+      <Filter>Source Files\SpaceShooter\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="Hyperion.cpp">
+      <Filter>Source Files\SpaceShooter\Ships</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files\SpaceShooter\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionScreen.cpp">
+      <Filter>Source Files\SpaceShooter\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipSelection.cpp">
+      <Filter>Source Files\SpaceShooter\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="StatScreen.cpp">
+      <Filter>Source Files\SpaceShooter\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen.cpp">
+      <Filter>Source Files\SpaceShooter\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScreen.cpp">
+      <Filter>Source Files\SpaceShooter\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Source Files\SpaceShooter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedTexture.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoreboard.h">
+      <Filter>Header Files\SpaceShooter</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayTopBar.h">
+      <Filter>Header Files\SpaceShooter</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\SpaceShooter</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\SpaceShooter</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\SpaceShooter</Filter>
+    </ClInclude>
+    <ClInclude Include="Meteor.h">
+      <Filter>Header Files\SpaceShooter</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysEntity.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsHelper.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Stars.h">
+      <Filter>Header Files\SpaceShooter</Filter>
+    </ClInclude>
+    <ClInclude Include="Raider.h">
+      <Filter>Header Files\SpaceShooter\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Wasp.h">
+      <Filter>Header Files\SpaceShooter\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files\SpaceShooter\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="Hyperion.h">
+      <Filter>Header Files\SpaceShooter\Ships</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files\SpaceShooter\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreen.h">
+      <Filter>Header Files\SpaceShooter\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="StatScreen.h">
+      <Filter>Header Files\SpaceShooter\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionScreen.h">
+      <Filter>Header Files\SpaceShooter\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScreen.h">
+      <Filter>Header Files\SpaceShooter\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipSelection.h">
+      <Filter>Header Files\SpaceShooter\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Header Files\SpaceShooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

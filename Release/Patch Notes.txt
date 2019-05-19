@@ -1,0 +1,53 @@
+Patch 0.1
+-Bullet distance reduced to 500 pixels
+-Bullets now wrap around screen
+-Player turn speed reduced from 10 degrees to 4
+
+Patch 0.2a
+-Added stars in background
+-SFX for meteor hitting player ship
+-Volume levels adjusted for different SFX
+
+Patch 0.2b
+-Reduced size of stars
+-Increased scroll speed
+-Reversed scroll direction
+-Improved flickering animation
+-Patch number displayed on bottom right of screen
+
+Patch 0.3
+-Reduced meteor split angle from 25 degrees to 15 degrees
+-Stars are stationary while not playing
+
+Patch 0.4
+-Meteors now split side by side instead of front to back
+-Meteor split angle varies from 15 to 30 degrees
+-Meteor and ship collision bug fixed
+-Firing rate added, players can hold space bar to shoot
+
+Patch 0.5
+-Fire rate increased from 5.5 shots a second to 6.5
+-Turning does not effect fire rate (Tested)
+-Meteor spawning flag fixed
+-Newly formed meteors now start with their velocities halved
+-Meteors still infinitely accelerate at a fixed speed
+
+Patch 0.6
+-Meteor split angle decreased to between 5 and 15 degrees
+-New ship added, the Wasp
+
+Patch 0.7
+-New ship added, the Hyperion
+
+Patch 0.8
+-Added stats screen
+-Ships equipped with rechargable shields
+-Added powerups
+
+Patch 0.9
+-Made powerup indicators more obvious
+-Powerups slowly drift when spawned
+-Powerup hitbox doubled in size
+-Meteors only spawn from top side of screen
+-Meteor speed increased
+-Meteors now spawn based on a timer
